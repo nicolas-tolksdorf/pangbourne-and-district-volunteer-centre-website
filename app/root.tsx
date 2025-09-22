@@ -5,6 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLocation,
 } from "react-router";
 
 import type { Route } from "./+types/root";
@@ -24,6 +25,7 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const location = useLocation();
   return (
     <html lang="en">
       <head>
@@ -33,7 +35,27 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+          <nav style={{
+            width: "100%",
+            padding: "1rem 2rem",
+            background: "#f8f9fa",
+            borderBottom: "1px solid #e5e7eb",
+            display: "flex",
+            gap: "2rem",
+            alignItems: "center"
+          }}>
+            <a href="/" style={{ 
+              textDecoration: "none", 
+              color: "#333", 
+              fontWeight: location.pathname === "/" ? "bold" : "normal",
+              }}>Home</a>
+            <a href="/contact" style={{
+              textDecoration: "none",
+              color: "#333",
+              fontWeight: location.pathname === "/contact" ? "bold" : "normal",
+              }}>Contact</a>
+          </nav>
+          {children}
         <ScrollRestoration />
         <Scripts />
       </body>

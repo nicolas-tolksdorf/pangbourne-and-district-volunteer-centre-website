@@ -1,12 +1,24 @@
-import logoDark from "./logo-dark.svg";
-import logoLight from "./logo-light.svg";
+// import logoDark from "./logo.png";
+// import logoLight from "./logo.png";
+import imgAssistanceIntoCar from "./assistance-into-car.png";
 
 export function Welcome({ message }: { message: string }) {
-  return (
-    <main className="flex items-center justify-center pt-16 pb-4">
-      <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
-        <header className="flex flex-col items-center gap-9">
-          <div className="w-[500px] max-w-[100vw] p-4">
+  return (    
+    <main className="flex items-center justify-center pt-8 pb-1">
+      
+      <div className="flex-1 flex flex-col items-center gap-1 min-h-0">
+        <header className="flex flex-col items-center gap-1">
+          <div className="w-[500px] max-w-[100vw] p-1">
+            <h1 className="text-blue-700 font-cursive text-3xl text-center mb-1">
+              Pangbourne and District Volunteer Centre
+              (Pangbourne Volunteers)
+            </h1>
+            {/* 
+            <img
+              src={imgAssistanceIntoCar}
+              alt="Volunteer providing assistance into vehicle"
+              className="block w-full dark:hidden"
+            />
             <img
               src={logoLight}
               alt="React Router"
@@ -16,15 +28,29 @@ export function Welcome({ message }: { message: string }) {
               src={logoDark}
               alt="React Router"
               className="hidden w-full dark:block"
-            />
+            /> 
+            */}
           </div>
         </header>
-        <div className="max-w-[300px] w-full space-y-6 px-4">
+        <div className="max-w-[650px] w-full space-y-6 px-1">
           <nav className="rounded-3xl border border-gray-200 p-6 dark:border-gray-700 space-y-4">
-            <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-              What&apos;s next?
+            <p className="leading-6 text-gray-700 dark:text-gray-200 text-center pb-2">
+One way or another you have navigated your way to the website for Pangbourne and District Volunteer Centre (Pangbourne Volunteers).
+The following pages give a potted history of our foundation, ways to become a volunteer and ways to access our services.
+</p><p className="leading-6 text-gray-700 dark:text-gray-200 text-center pb-2">
+It is my privilege both to be a volunteer driver and to be the voluntary chair of Pangbourne Volunteers. I have been a volunteer driver for about 6 years and chair for around two years taking over from John Chapman who has held the role for several decades. Soon to become an octogenarian I realise that I will not be able to complete as many years’ service as some of my fellow trustees and drivers… I say this because age is no barrier to volunteering with Pangbourne Volunteers.
+We have been serving our local communities since the eighties and expect to continue doing so for many years to come.
+One of the following pages includes an invitation to come on board either as a driver or in the office. I can be contacted via : pangbournevolunteers@outlook.com. and will be happy to tell you more about Pangbourne Volunteers and how you can become part of this enterprise.
+</p><p className="leading-6 text-gray-700 dark:text-gray-200 text-center pb-2">
+Alan.
+</p><p className="leading-6 text-gray-700 dark:text-gray-200 text-center pb-0">
+Reverend Alan Gates. 
+</p><p className="leading-6 text-gray-700 dark:text-gray-200 text-center pb-0">
+Honorary chair Pangbourne and District Volunteer Centre.
+</p><p className="leading-6 text-gray-700 dark:text-gray-200 text-center pb-2">
+PS. We meet socially twice a year chiefly to get to know each other, share food and drink and to enjoy a little live / light entertainment.
             </p>
-            <ul>
+            {/* <ul>
               {resources.map(({ href, text, icon }) => (
                 <li key={href}>
                   <a
@@ -39,8 +65,9 @@ export function Welcome({ message }: { message: string }) {
                 </li>
               ))}
               <li className="self-stretch p-3 leading-normal">{message}</li>
-            </ul>
+            </ul> */}
           </nav>
+          <br />
         </div>
       </div>
     </main>

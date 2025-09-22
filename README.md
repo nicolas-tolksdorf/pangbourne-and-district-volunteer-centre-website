@@ -47,3 +47,25 @@ A perfect starting point for building interactive, styled, and edge-deployed SPA
 - 🎨 [shadcn/ui](https://ui.shadcn.com)
 - 💨 [Tailwind CSS Documentation](https://tailwindcss.com/)
 - 🔀 [React Router Docs](https://reactrouter.com/)
+
+
+### Cloudflare
+
+- [Build apps with Workers](https://developers.cloudflare.com/workers/)
+- [Static assets with Workers](https://developers.cloudflare.com/workers/static-assets/)
+- [Cache/CDN plans](https://developers.cloudflare.com/cache/plans/)
+- [Pricing](https://developers.cloudflare.com/workers/platform/pricing/)
+  - Free tier:
+    - 100,000 requests per day
+    - 10 milliseconds of CPU time per invocation
+- [Wrangler CLI to manage Worker](https://developers.cloudflare.com/workers/wrangler/)
+
+- [vite-react-template](https://github.com/cloudflare/templates/tree/main/vite-react-template)
+  - `npm install`
+  - `npm run dev`
+
+
+### CSS
+
+https://prismic.io/blog/css-background-effects
+
