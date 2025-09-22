@@ -1,6 +1,6 @@
 // import logoDark from "./logo.png";
 // import logoLight from "./logo.png";
-import imgAssistanceIntoCar from "./assistance-into-car.png";
+// import imgAssistanceIntoCar from "./assistance-into-car.png";
 
 export function Welcome({ message }: { message: string }) {
   return (    
