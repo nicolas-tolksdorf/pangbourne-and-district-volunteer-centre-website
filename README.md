@@ -1,43 +1,51 @@
-# Hono + React Router + Vite + ShadCN UI on Cloudflare Workers
+# Website for Pangbourne and District Volunteer Centre (Pangbourne Volunteers)
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/react-router-hono-fullstack-template)
-![Build modern full-stack apps with Hono, React Router, and ShadCN UI on Cloudflare Workers](https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/24c5a7dd-e1e3-43a9-b912-d78d9a4293bc/public)
+## About
 
-<!-- dash-content-start -->
+The website is designed to provide information for people who require
+assistance (eg. getting to medical appointments) and for volunteers
+who are willing and able to help.
 
-A modern full-stack template powered by [Cloudflare Workers](https://workers.cloudflare.com/), using [Hono](https://hono.dev/) for backend APIs, [React Router](https://reactrouter.com/) for frontend routing, and [shadcn/ui](https://ui.shadcn.com/) for beautiful, accessible components styled with [Tailwind CSS](https://tailwindcss.com/).
+## Website
+
+This website is built using a modern full-stack [template](https://github.com/cloudflare/templates/tree/main/react-router-hono-fullstack-template) powered by [Cloudflare Workers](https://workers.cloudflare.com/), using [Hono](https://hono.dev/) web application framework, [React Router](https://reactrouter.com/) for frontend routing, and [shadcn/ui](https://ui.shadcn.com/) for beautiful, accessible components styled with [Tailwind CSS](https://tailwindcss.com/).
 
 Built with the [Cloudflare Vite plugin](https://developers.cloudflare.com/workers/vite-plugin/) for optimized static asset delivery and seamless local development. React is configured in single-page app (SPA) mode via Workers.
 
-A perfect starting point for building interactive, styled, and edge-deployed SPAs with minimal configuration.
+## Getting started
 
-## Features
+Clone the repository to your local hard drive.
 
-- ⚡ Full-stack app on Cloudflare Workers
-- 🔁 Hono for backend API endpoints
-- 🧭 React Router for client-side routing
-- 🎨 ShadCN UI with Tailwind CSS for components and styling
-- 🧱 File-based route separation
-- 🚀 Zero-config Vite build for Workers
-- 🛠️ Automatically deploys with Wrangler
-- 🔎 Built-in Observability to monitor your Worker
-<!-- dash-content-end -->
+Open the cloned repository using a development IDE editor (eg. [vscode](https://code.visualstudio.com)) and
+using a command line interface run the following commands:
 
-## Tech Stack
+```bash
+# Install library dependencies.
+npm install
+# Run the react router
+npm run dev
+```
 
-- **Frontend**: React + React Router + ShadCN UI
-  - SPA architecture powered by React Router
-  - Includes accessible, themeable UI from ShadCN
-  - Styled with utility-first Tailwind CSS
-  - Built and optimized with Vite
+In the browser, visit the following url: http://localhost:5173/
 
-- **Backend**: Hono on Cloudflare Workers
-  - API routes defined and handled via Hono in `/api/*`
-  - Supports REST-like endpoints, CORS, and middleware
+You can now edit files and the react router will automatically
+display changes in the browser.
 
-- **Deployment**: Cloudflare Workers via Wrangler
-  - Vite plugin auto-bundles frontend and backend together
-  - Deployed worldwide on Cloudflare’s edge network
+## How to deploy changes
+
+The Cloudflare GitHub App is installed on this repository and it
+automatically deploys your code to Cloudflare when you merge a pull
+request to your GitHub repository.
+
+Deployment steps:
+
+- Commit your changes to a local development branch.
+- Push branch changes to the github (remote repository server).
+- In your browser, login to github, open the repository, click on the
+  "Pull requests" tab and create a new pull request to merge your
+  development branch to the main branch.
+- The merge to the main branch will prompt the Cloudflare GitHub App
+  to deploy your changes to Cloudflare
 
 ## Resources
 
@@ -47,7 +55,6 @@ A perfect starting point for building interactive, styled, and edge-deployed SPA
 - 🎨 [shadcn/ui](https://ui.shadcn.com)
 - 💨 [Tailwind CSS Documentation](https://tailwindcss.com/)
 - 🔀 [React Router Docs](https://reactrouter.com/)
-
 
 ### Cloudflare
 
@@ -60,12 +67,9 @@ A perfect starting point for building interactive, styled, and edge-deployed SPA
     - 10 milliseconds of CPU time per invocation
 - [Wrangler CLI to manage Worker](https://developers.cloudflare.com/workers/wrangler/)
 
-- [vite-react-template](https://github.com/cloudflare/templates/tree/main/vite-react-template)
-  - `npm install`
-  - `npm run dev`
+### Styles and effects
 
-
-### CSS
-
-https://prismic.io/blog/css-background-effects
+- [Padding](https://tailwindcss.com/docs/padding)
+- [Color chart](https://tailwindcss.com/docs/colors)
+- [Background effects](https://prismic.io/blog/css-background-effects)
 
