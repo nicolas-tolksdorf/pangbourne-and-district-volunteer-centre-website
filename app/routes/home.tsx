@@ -1,12 +1,11 @@
-
 import { Welcome } from "../welcome/welcome";
 
 type LoaderData = { message?: string };
 
 export function meta() {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Pangbourne and District Volunteer Centre (Pangbourne Volunteers)" },
+    { name: "description", content: "Welcome to the Pangbourne and District Volunteer Centre!" },
   ];
 }
 
@@ -15,6 +14,6 @@ export function meta() {
 // }
 
 export default function Home({ loaderData }: { loaderData?: LoaderData }) {
-  const message = loaderData?.message ?? "Welcome to Pangbourne and District Volunteer Centre!";
+  const message = loaderData?.message ?? "Welcome to the Pangbourne and District Volunteer Centre!";
   return <Welcome message={message} />;
 }

@@ -1,0 +1,30 @@
+<svg width="120" height="115" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="Gradient1" x1="0" x2="0" y1="0" y2="3">
+      <stop offset="10%" stop-color="rgba(255, 53, 164, 0.86)" stop-opacity="0.60" />
+      <stop offset="70%" stop-color="rgba(255, 53, 164, 0.86)" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="3">
+      <stop offset="0%" stop-color="rgba(255, 53, 164, 0.86)" stop-opacity="0.55" />
+      <stop offset="80%" stop-color="rgba(255, 53, 164, 0.86)" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+    <rect
+        x="-22"
+        y="38"
+        rx="49"
+        ry="35"
+        width="87.21"
+        height="96.9"
+        transform="rotate(-21) skewX(12) translate(-5,-2) scale(0.96,1)"
+        fill="url(#Gradient2)" />
+    <rect
+        x="13"
+        y="38"
+        rx="37"
+        ry="42"
+        width="84.303"
+        height="72.675"
+        transform="rotate(-18) skewX(-10) translate(20,1) scale(0.96,1)"
+        fill="url(#Gradient1)" />
+</svg>

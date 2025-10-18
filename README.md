@@ -73,3 +73,14 @@ Deployment steps:
 - [Color chart](https://tailwindcss.com/docs/colors)
 - [Background effects](https://prismic.io/blog/css-background-effects)
 
+- [Basic shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Basic_shapes)
+- [Gradients in SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Gradients)
+
+### SEO
+
+[Manage search engine crawlers](https://www.cloudflare.com/learning/bots/what-is-robots-txt/)
+
+
+### Hosting
+
+[Create website from GitHub repo](https://docs.github.com/en/pages)
