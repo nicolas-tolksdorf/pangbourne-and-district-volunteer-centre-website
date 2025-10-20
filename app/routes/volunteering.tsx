@@ -16,11 +16,11 @@ export default function Volunteering() {
             </p>
             <p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
             Pangborne volunteers provide two opportunities to serve the communities in which we operate. 
-            Volunteers drivers. Our volunteers drivers are the “coal face” of the organisation collecting people from their homes and taking them to medical appointments either at their GP’s surgery, local hospitals, dentists, opticians and podiatrists. Occasionally we will be able to facilitate transport to support groups and the like knowing that these groups are important to peoples mental wellbeing.
+            Volunteer drivers. Our volunteer drivers are the “coal face” of the organisation collecting people from their homes and taking them to medical appointments either at their GP’s surgery, local hospitals, dentists, opticians and podiatrists. Occasionally we will be able to facilitate transport to support groups and the like knowing that these groups are important to peoples mental wellbeing.
             </p><p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
             We are always actively recruiting new drivers to meet the ever growing need for enabling people to get their appointments especially in areas that are not well served by public transport.
             </p><p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
-            Volunteers drivers are expected to have and appropriate roadworthy vehicle where the insurance policy extends to volunteering. Drivers will be asked to provide two referees and evidence of a valid license, insurance and MOT. The mileage covered is reimbursed at 45p per mile. Drivers are free to do as many runs as they wish and it is OK to say no.
+            Volunteer drivers are expected to have and appropriate roadworthy vehicle where the insurance policy extends to volunteering. Drivers will be asked to provide two referees and evidence of a valid licence, insurance and MOT. The mileage covered is reimbursed at 45p per mile. Drivers are free to do as many runs as they wish and it is OK to say no.
             </p>
             <p className="bg-linear-to-r from-amber-400 to-rose-600 bg-clip-text text-left text-4xl font-extrabold text-transparent mb-1 pl-6 pt-7 pb-4">
             Office
@@ -32,7 +32,7 @@ export default function Volunteering() {
             Training is given both for drivers and office volunteers.
             </p><p className="leading-6 text-gray-700 pb-4 pl-6 pr-10 text-left">
             For further information about volunteering either<br />
-            <b>telephone:</b> 0119 984 4586 or<br />
+            <b>telephone:</b> 0118 984 4586 or<br />
             <b>email:</b> <a href="mailto:pangbournevolunteers@outlook.com" className="text-blue-700 underline hover:text-blue-900">pangbournevolunteers@outlook.com</a><br /><br />
             {/* </p><p className="leading-6 text-gray-700 pb-0 pl-0 pr-0 text-center">
               <img
