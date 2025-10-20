@@ -19,7 +19,7 @@ We operate within the parishes of Ashampstead, Upper and Lower Basildon, Purley 
             </p><p className="leading-6 text-gray-700 text-center pb-1 pl-6 pr-10 text-left">
 Accessing our services couldn’t be easier. Simply
             </p><p className="leading-6 text-gray-700 text-center pb-0 pl-10 pr-10 text-left">
-<b>telephone:</b> 0119 984 4586
+<b>telephone:</b> 0118 984 4586
             </p><p className="leading-6 text-gray-700 text-center pb-6 pl-10 pr-10 text-left italic">
 between 9.30am and 11.30am Monday to Friday
             </p><p className="leading-6 text-gray-700 text-center pb-4 pl-6 pr-10 text-left">
