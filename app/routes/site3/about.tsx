@@ -36,7 +36,7 @@ export default function Site3About() {
             <div className="w-full p-4 border" style={{ color: '#ffbbf6ff', backgroundColor: 'rgba(117, 20, 196, 0.99)' }}>
               {/* <h3 className="text-lg font-semibold mb-2">Panel Left</h3> */}
               <p className="font-normal pb-4">
-                Initially we tackled a wide variety of tasks, we had a group of 6 formers from Pangbourne College who would cut people's lawns and do other gardening jobs, we took people to shops and to entertainment, took children to special schools and visited people in their homes to relieve carers for a while. Sadly, we soon had to restrict her activities to driving to medical appointments and a few other tasks, partly because we could not cope with demand but also to comply with legislation concerning the care of vulnerable persons.
+                Initially we tackled a wide variety of tasks, we had a group of 6 formers from Pangbourne College who would cut people's lawns and do other gardening jobs, we took people to shops and to entertainment, took children to special schools and visited people in their homes to relieve carers for a while. Sadly, we soon had to restrict our activities to driving to medical appointments and a few other tasks, partly because we could not cope with demand but also to comply with legislation concerning the care of vulnerable persons.
               </p>
               <p className="font-normal pb-4">
                 Following the closure of United Reformed Church, we moved to an office in Pangbourne Village Hall, which we now share with Saint James Church.
