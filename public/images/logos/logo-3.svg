@@ -77,25 +77,16 @@
         fill="url(#Gradient1)" />
 
     <text
-        x="55"
-        y="72"
+        x="38"
+        y="75"
         class="alan-sans-800"
-        font-size="72"
-        fill="rgba(255, 255, 255, 0.55)"
+        font-size="50"
+        fill="rgba(255, 255, 255, 0.78)"
         font-weight="800"
-        letter-spacing="-5px"
+        letter-spacing="-3px"
         font-kerning="normal"
-    >P</text>
-    <text
-        x="56"
-        y="127"
-        class="alan-sans-800"
-        font-size="72"
-        fill="rgba(255, 255, 255, 0.55)"
-        font-weight="800"
-        letter-spacing="-5px"
-        font-kerning="normal"
-    >V</text>
+        transform="translate(0,0) scale(1.21,0.95)"
+    >PV</text>
 
     <text
         x="150"

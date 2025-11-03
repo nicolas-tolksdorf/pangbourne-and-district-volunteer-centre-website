@@ -73,27 +73,15 @@
         transform="rotate(-18) skewX(-10) translate(20,1) scale(0.96,1)"
         fill="url(#Gradient1)" />
     <text
-        x="55"
-        y="70"
-        class="alan-sans-800"
-        font-size="72"
-        fill="rgba(255, 255, 255, 0.55)"
-        font-weight="800"
+        x="48"
+        y="76"
+        class="alan-sans-600"
+        font-size="60"
+        fill="rgba(255, 255, 255, 0.78)"
+        font-weight="600"
         letter-spacing="-5px"
         font-kerning="normal"
-        transform="translate(0,0) scale(1,0.9)"
-    >P</text>
-    <text
-        x="-22"
-        y="138"
-        class="alan-sans-800"
-        font-size="72"
-        fill="rgba(255, 255, 255, 0.55)"
-        font-weight="800"
-        letter-spacing="-5px"
-        font-kerning="normal"
-        transform="rotate(-20) skewX(20) translate(20,1) scale(1.7,1)"
-    >V</text>
+    >PV</text>
 
     <text
         x="150"
