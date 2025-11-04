@@ -164,7 +164,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <span className="padding-0" style={{ paddingLeft: "1%", paddingRight: "1%", margin: "0"}}>|</span>
             <a href={basepath_site2 + "/assistance"} style={{
               textDecoration: "none",
-              color: "#7c2b83ee",
+              color: "#4b1a50ee",
               fontWeight: location.pathname === `${basepath_site2}/assistance` ? "bold" : "normal",
               padding: location.pathname === `${basepath_site2}/assistance` ? "0.2rem 0.5rem" : "0.2rem 0.55rem",
               width: `${basepath_site2}/assistance` ? "100px" : "100px",
