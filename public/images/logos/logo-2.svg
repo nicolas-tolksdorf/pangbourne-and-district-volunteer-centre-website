@@ -72,6 +72,16 @@
         height="71.25"
         transform="rotate(-18) skewX(-10) translate(20,1) scale(0.96,1)"
         fill="url(#Gradient1)" />
+    <text
+        x="48"
+        y="76"
+        class="alan-sans-600"
+        font-size="60"
+        fill="rgba(255, 255, 255, 0.78)"
+        font-weight="600"
+        letter-spacing="-5px"
+        font-kerning="normal"
+    >PV</text>
 
     <text
         x="150"

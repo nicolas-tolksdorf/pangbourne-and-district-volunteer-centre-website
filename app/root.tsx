@@ -87,12 +87,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
               }}>About</a>
             <a href="/assistance" style={{
               textDecoration: "none",
-              color: location.pathname === "/assistance" ? "#fff" : "#7c2b83ee",
+              color: "#7c2b83ee",
               fontWeight: location.pathname === "/assistance" ? "bold" : "normal",
-              background: location.pathname === "/assistance" ? "#4b206bf3" : "#cee4dd79",
-              borderRadius: location.pathname === "/assistance" ? "0.5rem" : "0.5rem",
               padding: location.pathname === "/assistance" ? "0.2rem 0.5rem" : "0.2rem 0.55rem",
-              // transition: "background 5.5s, color 5.5s"
             }}>Assistance</a>
             <a href="/volunteering" style={{
               textDecoration: "none",
@@ -167,13 +164,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <span className="padding-0" style={{ paddingLeft: "1%", paddingRight: "1%", margin: "0"}}>|</span>
             <a href={basepath_site2 + "/assistance"} style={{
               textDecoration: "none",
-              color: location.pathname === `${basepath_site2}/assistance` ? "#fff" : "#4b1a50ee",
+              color: "#4b1a50ee",
               fontWeight: location.pathname === `${basepath_site2}/assistance` ? "bold" : "normal",
-              background: location.pathname === `${basepath_site2}/assistance` ? "#4b206bf3" : "#cee4dd79",
-              borderRadius: location.pathname === `${basepath_site2}/assistance` ? "0.5rem" : "0.5rem",
               padding: location.pathname === `${basepath_site2}/assistance` ? "0.2rem 0.5rem" : "0.2rem 0.55rem",
               width: `${basepath_site2}/assistance` ? "100px" : "100px",
-              // transition: "background 5.5s, color 5.5s"
             }}>Assistance</a>
             <span className="padding-0" style={{ paddingLeft: "1%", paddingRight: "1%", margin: "0"}}>|</span>
             <a href={basepath_site2 + "/volunteering"} style={{
@@ -263,10 +257,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
               href={basepath_site3 + "/assistance"}
               style={{
               textDecoration: "none",
-              color: location.pathname === `${basepath_site3}/assistance` ? "#fff" : "#7c2b83ee",
+              color: "#7c2b83ee",
               fontWeight: location.pathname === `${basepath_site3}/assistance` ? "bold" : "normal",
-              background: location.pathname === `${basepath_site3}/assistance` ? "#4b206bf3" : "#cee4dd79",
-              borderRadius: location.pathname === `${basepath_site3}/assistance` ? "0.5rem" : "0.5rem",
               padding: location.pathname === `${basepath_site3}/assistance` ? "0.2rem 0.5rem" : "0.2rem 0.55rem",
               // transition: "background 5.5s, color 5.5s"
             }}>Assistance</a>

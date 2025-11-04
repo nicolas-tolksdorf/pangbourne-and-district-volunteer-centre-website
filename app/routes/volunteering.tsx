@@ -16,11 +16,14 @@ export default function Volunteering() {
             </p>
             <p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
             Pangborne volunteers provide two opportunities to serve the communities in which we operate. 
-            Volunteer drivers. Our volunteer drivers are the “coal face” of the organisation collecting people from their homes and taking them to medical appointments either at their GP’s surgery, local hospitals, dentists, opticians and podiatrists. Occasionally we will be able to facilitate transport to support groups and the like knowing that these groups are important to peoples mental wellbeing.
+            </p><p className="bg-linear-to-r from-amber-400 to-rose-600 bg-clip-text text-left text-4xl font-extrabold text-transparent mb-1 pl-6 pt-7 pb-4">
+            Volunteer drivers
+            </p><p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
+            Our volunteer drivers are the “coal face” of the organisation collecting people from their homes and taking them to medical appointments either at their GP’s surgery, local hospitals, dentists, opticians and podiatrists. Occasionally we will be able to facilitate transport to support groups and the like knowing that these groups are important to peoples mental wellbeing.
             </p><p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
             We are always actively recruiting new drivers to meet the ever growing need for enabling people to get their appointments especially in areas that are not well served by public transport.
             </p><p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
-            Volunteer drivers are expected to have and appropriate roadworthy vehicle where the insurance policy extends to volunteering. Drivers will be asked to provide two referees and evidence of a valid licence, insurance and MOT. The mileage covered is reimbursed at 45p per mile. Drivers are free to do as many runs as they wish and it is OK to say no.
+            Volunteer drivers are expected to have an appropriate roadworthy vehicle where the insurance policy extends to volunteering. Drivers will be asked to provide two referees and evidence of a valid licence, insurance and MOT. The mileage covered is reimbursed at 45p per mile. Drivers are free to do as many runs as they wish and it is OK to say no.
             </p>
             <p className="bg-linear-to-r from-amber-400 to-rose-600 bg-clip-text text-left text-4xl font-extrabold text-transparent mb-1 pl-6 pt-7 pb-4">
             Office
@@ -41,7 +44,7 @@ export default function Volunteering() {
                 className="mb-0 mt-10 ml-0 mr-4"
               /> */}
             </p><p className="leading-6 text-gray-700 pb-4 pl-6 pr-5 text-left">
-            Volunteering with Pangbourne Volunteers is one of the most rewarding things we do. A friendly helpful voice at the end of the telephone or the companionship of a drivers for the extent of the appointment is very often the only interaction our clients have with another person in days.
+            Volunteering with Pangbourne Volunteers is one of the most rewarding things we do. A friendly helpful voice at the end of the telephone or the companionship of a driver for the extent of the appointment is very often the only interaction our clients have with another person in days.
             </p>
           </nav>
           <br />
