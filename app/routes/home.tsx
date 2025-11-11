@@ -5,7 +5,7 @@ type LoaderData = { message?: string };
 export function meta() {
   return [
     { title: "Pangbourne and District Volunteer Centre (Pangbourne Volunteers)" },
-    { name: "description", content: "Welcome to the Pangbourne and District Volunteer Centre!" },
+    { name: "description", content: "Kind welcome and short introduction to the Pangbourne and District Volunteer Centre by Reverend Alan Gates" },
   ];
 }
 
