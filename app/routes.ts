@@ -2,12 +2,19 @@
 import { type RouteConfig, index, route } from "@react-router/dev/routes";
 
 export default [
-	// Site 1
+	// Live Site
 	index("routes/home.tsx"),
 	route("about", "routes/about.tsx"),
 	route("assistance", "routes/assistance.tsx"),
 	route("volunteering", "routes/volunteering.tsx"),
 	route("contact", "routes/contact.tsx"),
+
+	// Site 1
+	route("site1", "routes/site1/home.tsx"),
+	route("site1/about", "routes/site1/about.tsx"),
+	route("site1/assistance", "routes/site1/assistance.tsx"),
+	route("site1/volunteering", "routes/site1/volunteering.tsx"),
+	route("site1/contact", "routes/site1/contact.tsx"),
 
 	// Site 2
 	route("site2", "routes/site2/home.tsx"),
