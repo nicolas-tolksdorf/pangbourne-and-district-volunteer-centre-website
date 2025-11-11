@@ -1,14 +1,7 @@
 import React from "react";
-import "./../app.css";
+import "./../../app-site1.css";
 
-export function meta() {
-  return [
-    { title: "Pangbourne and District Volunteer Centre (Pangbourne Volunteers)" },
-    { name: "description", content: "Two opportunites to service as a volunteers at the Pangbourne and District Volunteer Centre" },
-  ];
-}
-
-export default function Volunteering() {
+export default function Site1Volunteering() {
   return (
     <main className="flex items-center justify-center pt-8 pb-1">
       <div className="flex-1 flex flex-col items-center gap-1 min-h-0">

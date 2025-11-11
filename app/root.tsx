@@ -29,7 +29,7 @@ import type { Route } from "./+types/root";
 //       }
 //
 
-import logoUrl from "./images/2/logo.svg";
+import logoUrl from "./images/logo.svg";
 
 
 export const links: Route.LinksFunction = () => [
@@ -47,7 +47,90 @@ export const links: Route.LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const location = useLocation();
+
+  const basepath_livesite = ""
+  const livesite = (
+    <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Meta />
+        <Links />
+      </head>
+      <body>
+        {/* <p className="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent mb-1 pl-8 pt-5 pb-2">
+          Pangbourne and District Volunteer Centre <br />
+          (Pangbourne Volunteers)
+        </p> */}
+      {/* <h1 className="text-blue-700 text-3xl text-left mb-1 pl-8 pt-4 pb-2 uppercase wrap">
+        Pangbourne and District Volunteer Centre
+        (Pangbourne Volunteers)
+      </h1> */}
+        <p style={{ padding: "0.55rem 1.2rem 0.7rem" }}>
+          <img
+            alt="Pangbourne Volunteers logo"
+            src={logoUrl}
+            width={720}
+            style={{ height: "auto", display: "block" }}
+            loading="eager"
+            decoding="async"
+          />
+        </p>
+          <nav style={{
+            width: "100%",
+            padding: "1rem 2rem",
+            background: "linear-gradient(160deg, #f03fa6a4 0%, #8a5cf652 100%)",
+            borderBottom: "1px solid #e5e7eb",
+            display: "flex",
+            gap: "0.2rem",
+            alignItems: "center"
+          }}>
+            <a href={basepath_livesite + "/"} style={{ 
+              textDecoration: "none", 
+              color: "#4b1a50ee",
+              fontWeight: location.pathname === `${basepath_livesite}/` ? "bold" : "normal",
+              padding: location.pathname === `${basepath_livesite}/about` ? "0.2rem 0.21rem" : "0.2rem 0.25rem 0.2rem 0rem",
+              }}>Welcome</a>
+            <span className="padding-0" style={{ paddingLeft: "1%", paddingRight: "1%", margin: "0"}}>|</span>
+            <a href={basepath_livesite + "/about"} style={{
+              textDecoration: "none",
+              color: "#4b1a50ee",
+              fontWeight: location.pathname === `${basepath_livesite}/about` ? "bold" : "normal",
+              padding: location.pathname === `${basepath_livesite}/about` ? "0.2rem 0.18rem" : "0.2rem 0.25rem",
+              }}>About</a>
+            <span className="padding-0" style={{ paddingLeft: "1%", paddingRight: "1%", margin: "0"}}>|</span>
+            <a href={basepath_livesite + "/assistance"} style={{
+              textDecoration: "none",
+              color: "#4b1a50ee",
+              fontWeight: location.pathname === `${basepath_livesite}/assistance` ? "bold" : "normal",
+              padding: location.pathname === `${basepath_livesite}/assistance` ? "0.2rem 0.5rem" : "0.2rem 0.55rem",
+              width: `${basepath_livesite}/assistance` ? "100px" : "100px",
+            }}>Assistance</a>
+            <span className="padding-0" style={{ paddingLeft: "1%", paddingRight: "1%", margin: "0"}}>|</span>
+            <a href={basepath_livesite + "/volunteering"} style={{
+              textDecoration: "none",
+              color: "#4b1a50ee",
+              fontWeight: location.pathname === `${basepath_livesite}/volunteering` ? "bold" : "normal",
+              padding: location.pathname === `${basepath_livesite}/volunteering` ? "0.2rem 0.1rem" : "0.2rem 0.15rem",
+              }}>Volunteering</a>
+            <span className="padding-0" style={{ paddingLeft: "1%", paddingRight: "1%", margin: "0"}}>|</span>
+            <a
+              href={basepath_livesite + "/contact"}
+              style={{
+              textDecoration: "none",
+              color: "#4b1a50ee",
+              fontWeight: location.pathname === `${basepath_livesite}/contact`? "bold" : "normal",
+              padding: location.pathname === `${basepath_livesite}/contact` ? "0.2rem 0.25rem" : "0.2rem 0.15rem",
+              }}>Contact</a>
+          </nav>
+          {children}
+        <ScrollRestoration />
+        <Scripts />
+      </body>
+    </html>
+  );
   
+  const basepath_site1 = "/site1"
   const site1 = (
     <html lang="en">
       <head>
@@ -74,34 +157,34 @@ export function Layout({ children }: { children: React.ReactNode }) {
             gap: "2rem",
             alignItems: "center"
           }}>
-            <a href="/" style={{ 
+            <a href={basepath_site1 + "/" }style={{ 
               textDecoration: "none", 
               color: "#7c2b83ee",
-              fontWeight: location.pathname === "/" ? "bold" : "normal",
+              fontWeight: location.pathname === `${basepath_site1}/` ? "bold" : "normal",
               }}>Welcome</a>
-            <a href="/about" style={{
+            <a href={basepath_site1 + "/about"} style={{
               textDecoration: "none",
               color: "#7c2b83ee",
-              fontWeight: location.pathname === "/about" ? "bold" : "normal",
-              padding: location.pathname === "/about" ? "0.2rem 0.20rem" : "0.2rem 0.25rem",
+              fontWeight: location.pathname === `${basepath_site1}/about` ? "bold" : "normal",
+              padding: location.pathname === `${basepath_site1}/about` ? "0.2rem 0.20rem" : "0.2rem 0.25rem",
               }}>About</a>
-            <a href="/assistance" style={{
+            <a href={basepath_site1 + "/assistance"} style={{
               textDecoration: "none",
               color: "#7c2b83ee",
-              fontWeight: location.pathname === "/assistance" ? "bold" : "normal",
-              padding: location.pathname === "/assistance" ? "0.2rem 0.5rem" : "0.2rem 0.55rem",
+              fontWeight: location.pathname === `${basepath_site1}/assistance` ? "bold" : "normal",
+              padding: location.pathname === `${basepath_site1}/assistance` ? "0.2rem 0.5rem" : "0.2rem 0.55rem",
             }}>Assistance</a>
-            <a href="/volunteering" style={{
+            <a href={basepath_site1 + "/volunteering"} style={{
               textDecoration: "none",
               color: "#7c2b83ee",
-              fontWeight: location.pathname === "/volunteering" ? "bold" : "normal",
-              padding: location.pathname === "/volunteering" ? "0.2rem 0.1rem" : "0.2rem 0.15rem",
+              fontWeight: location.pathname === `${basepath_site1}/volunteering` ? "bold" : "normal",
+              padding: location.pathname === `${basepath_site1}/volunteering` ? "0.2rem 0.1rem" : "0.2rem 0.15rem",
               }}>Volunteering</a>
-            <a href="/contact" style={{
+            <a href={basepath_site1 + "/contact"} style={{
               textDecoration: "none",
               color: "#7c2b83ee",
-              fontWeight: location.pathname === "/contact" ? "bold" : "normal",
-              padding: location.pathname === "/contact" ? "0.2rem 0.25rem" : "0.2rem 0.15rem",
+              fontWeight: location.pathname === `${basepath_site1}/contact` ? "bold" : "normal",
+              padding: location.pathname === `${basepath_site1}/contact` ? "0.2rem 0.25rem" : "0.2rem 0.15rem",
               }}>Contact</a>
           </nav>
           {children}
@@ -290,6 +373,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const basepath = path.length >= 2 ? path[1]: ""
 
   switch (basepath) {
+    case "site1":
+      return site1;
+      break;
+
     case "site2":
       return site2;
       break;
@@ -299,7 +386,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       break;
   
     default:
-      return site1;
+      return livesite;
       break;
   }
 }

@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /
+Sitemap: https://pangbourne-and-district.volunteer-centre.workers.dev/sitemap.xml

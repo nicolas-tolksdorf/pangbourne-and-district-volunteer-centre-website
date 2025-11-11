@@ -1,6 +1,13 @@
 import React from "react";
 import "./../app.css";
 
+export function meta() {
+  return [
+    { title: "Pangbourne and District Volunteer Centre (Pangbourne Volunteers)" },
+    { name: "description", content: "How to contact Pangbourne and District Volunteer Centre" },
+  ];
+}
+
 export default function Contact() {
   return (
     <main className="flex items-center justify-center pt-8 pb-1">
@@ -21,7 +28,7 @@ export default function Contact() {
             Pangbourne<br/>
             RG8 7AN<br/>
             </p><p className="leading-6 text-gray-700 pb-4 pl-6 pr-0 text-left">
-            <b>Website:</b> https://head-react-router-hono-fullstack-template.tolksdorf.workers.dev<br/>
+            <b>Website:</b> <a target="_blank" href="https://pangbourne-and-district.volunteer-centre.workers.dev" className="text-blue-700 underline hover:text-blue-900">https://pangbourne-and-district.volunteer-centre.workers.dev</a><br/>
             <b>Telephone:</b> 0118 984 4586<br/>
             <b>Email:</b> <a href="mailto:pangbournevolunteers@outlook.com" className="text-blue-700 underline hover:text-blue-900">pangbournevolunteers@outlook.com</a><br/>
             </p><p className="leading-6 text-gray-700 pb-4 pl-6 pr-0 text-left">
