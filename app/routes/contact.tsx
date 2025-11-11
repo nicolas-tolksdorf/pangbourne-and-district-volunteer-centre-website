@@ -3,8 +3,10 @@ import "./../app.css";
 
 export function meta() {
   return [
-    { title: "Pangbourne and District Volunteer Centre (Pangbourne Volunteers)" },
-    { name: "description", content: "How to contact Pangbourne and District Volunteer Centre" },
+    { title: "Pangbourne Volunteers - Pangbourne and District Volunteer Centre" },
+    { name: "description", content: "How to contact Pangbourne Volunteers" },
+    { name: "keywords", content: "Pangbourne Volunteers" },
+    { name: "author", content: "Reverend Alan Gates" },
   ];
 }
 
