@@ -45,27 +45,27 @@ export const links: Route.LinksFunction = () => [
   },
   {
     rel: "shortcut icon",
-    href: "/favicon.ico",
+    href: "https://pangbourne-and-district.volunteer-centre.workers.dev/favicon.ico",
   },
   {
     rel: "icon",
     type: "image/png",
-    href: "/favicon-96x96.png",
+    href: "https://pangbourne-and-district.volunteer-centre.workers.dev/favicon-96x96.png",
     sizes: "96x96",
   },
   {
     rel: "icon",
     type: "image/svg+xml",
-    href: "/favicon.svg",
+    href: "https://pangbourne-and-district.volunteer-centre.workers.dev/favicon.svg",
   },
   {
     rel: "apple-touch-icon",
     sizes: "180x180",
-    href: "/apple-touch-icon.png",
+    href: "https://pangbourne-and-district.volunteer-centre.workers.dev/apple-touch-icon.png",
   },
   {
     rel: "manifest",
-    href: "/site.webmanifest",
+    href: "https://pangbourne-and-district.volunteer-centre.workers.dev/site.webmanifest",
   },
 ];
 
@@ -80,6 +80,25 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Pangbourne and District Volunteer Centre",
+          "alternateName": ["Pangbourne Volunteers"],
+          "url": "https://pangbourne-and-district.volunteer-centre.workers.dev/",
+        }),
+          }}
+        />
+        <meta property="og:site_name" content="Pangbourne and District Volunteer Centre" />
+        <meta property="og:url" content="https://pangbourne-and-district.volunteer-centre.workers.dev/" />
+        <meta property="og:title" content="Pangbourne Volunteers" />
+        <meta property="og:description" content="Find information on requesting assistance from the Pangbourne Volunteers and learn about volunteering opportunities here." />
+        <meta property="og:image" content={logoUrl} />
+        <meta property="og:image:width" content="680" />
+        <meta property="og:image:height" content="120" />
       </head>
       <body>
         {/* <p className="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent mb-1 pl-8 pt-5 pb-2">

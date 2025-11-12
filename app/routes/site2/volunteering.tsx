@@ -15,7 +15,7 @@ export default function Site2Volunteering() {
               Volunteering
             </p>
             <p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
-            Pangborne volunteers provide two opportunities to serve the communities in which we operate. 
+            Pangborne Volunteers provide two opportunities to serve the communities in which we operate. 
             </p><p className="bg-linear-to-r from-amber-400 to-rose-600 bg-clip-text text-left text-4xl font-extrabold text-transparent mb-1 pl-6 pt-7 pb-4">
             Volunteer drivers
             </p><p className="leading-6 text-gray-700 pb-2 pl-6 pr-10 text-left">
