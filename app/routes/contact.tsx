@@ -3,7 +3,7 @@ import "./../app.css";
 
 export function meta() {
   return [
-    { title: "Contact - Pangbourne and District Volunteer Centre" },
+    { title: "Contact - Pangbourne and District Volunteer Centre (Pangbourne Volunteers)" },
     { name: "description", content: "How to contact Pangbourne Volunteers" },
     { name: "keywords", content: "Pangbourne Volunteers" },
     { name: "author", content: "Reverend Alan Gates" },
